@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Patcharapa Jampa </title>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <!--line 7,18: Exeternal Resource Link  
+        font-family Ref:https://www.w3schools.com/whatis/tryit.asp?font=Aclonica -->
+    <script>
+        var changed =false;
+
+function onChangeBg() {
+
+    let color = "white";
+    let bgcolor = "pink";
+
+    if(changed == true) {
+        bgcolor = "white"
+        color = "pink"
+
+
+    } 
+    document.body.style.backgroundColor = bgcolor;
+    document.body.style.color = color;
+
+
+    changed = !changed;
+
+
+
+
+       }
+    </script>
+</head>
+
+<body>
+    <hr>
+    <!-- Menu -->
+    <table style="width:100%; text-align: center">
+        <tr>
+            <td>
+                <h3><a href="index.html">Profile</a></h3>
+            </td>
+            <td>
+                <h3><a href="about.html">About</a></h3>
+            </td>
+            <td>
+                <h3><a href="projects.html">Projects</a></h3>
+            </td>
+            <td>
+                <h3><a href="contact.html">Contact</a></h3>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <th style="width: 50%; text-align: left;">
+                <h2 class="Name">Hi, I am Patcharapa Jampa </h2>
+                <p style="font-weight:normal; text-align: justify;">&nbsp;&nbsp;&nbsp;
+                    I am studying at Bangkok University. I am second year student. Faculty of Engineering, Department of Multimedia and Entertainment.
+                    
+                </p>
+                <p><a href="javascript:void(0)" onclick="onChangeBg()">เปลี่ยนสีพื้นหลัง</a></p>                     
+                </script>
+                
+            
+
+            </th>
+        </tr>
+    </table>
+    <hr>
+    <p style="text-align: center;">© 2022 Patcharapa Jampa</p>
+</body>
+
+</html>
